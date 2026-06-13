@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - BTS SIO SISR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="bracket">&lt;</span>Portefolio<span class="bracket">/&gt;</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">Profile étudiant</a></li>
+            <li><a href="#Job">Mon entreprise</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#veille">Veille informatique</a></li>
+            <li><a href="#Formation">Formation</a></li>
+             <li><a href="#E5">E5</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>  
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch">Tom Lavernhe-Balseiro</h1>
+            <p class="subtitle">Technicien Administrateur Systèmes & Réseaux Junior</p>
+            <p class="tagline">Spécialisé en infrastructure, réseaux et sécurité informatique</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> Projets</a>
+                <a href="#contact" class="btn btn-secondary"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll</p>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="bracket">&lt;</span>Profile étudiant<span class="bracket">/&gt;</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="images/photo.jpg" alt="Ma photo">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Je m'appelle Tom Lavernhe-Balseiro</h3>
+                    <p>j'ai 18 ans aimant les infrastructures informatiques, je suis en formation BTS SIO option SISR.</p>
+                    <p>Mon objectif durant cet formation est de concevoir, déployer et administrer des environnements systèmes et réseaux sécurisés</p>
+                    <div class="about-tags">
+                        <span class="tag"><i class="fas fa-server"></i> SysAdmin</span>
+                        <span class="tag"><i class="fas fa-network-wired"></i> Réseau</span>
+                        <span class="tag"><i class="fas fa-shield-alt"></i> Sécurité</span>
+                    </div>
+                    <p>Mes Obbys</p>
+                    <div class="about-tags">
+                        <span class="tag"></i>Les sports de combats</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="Job" class="section">
+    <div class="container">
+        <h2 class="section-title"><span class="bracket">&lt;</span>Mon entreprise<span class="bracket">/&gt;</span></h2>
+        <div class="about-content">
+            <div class="about-text" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+                <h3 style="text-align: center;">Marignan</h3>
+                <p style="max-width: 600px; text-align: center;">Marignan est un spécialiste de la promotion immobilière d’envergure nationale fort de 50 ans d’expérience et de savoir-faire.</p>
+
+                <p>À travers notre réseau de 13 agences, Marignan est implanté dans toutes les grandes métropoles régionales. Cet ancrage local historique confère à nos équipes une compréhension fine des enjeux des territoires, des besoins des collectivités et des attentes de nos clients. </p>
+            </div>
+            
+            <!-- Changement : ajout d'une grille pour les skill-cards -->
+            <div class="about-image">
+                    <div class="image-frame">
+                        <img src="images/marignan.jpg" alt="Ma photo">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="bracket">&lt;</span>Compétences<span class="bracket">/&gt;</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Administration Systèmes</h3>
+                    <div class="skill-item">
+                        <span>Windows Server</span>
+                        <div class="progress-bar"><div class="progress" style="width: 40%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>html</span>
+                        <div class="progress-bar"><div class="progress" style="width: 60%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Linux</span>
+                        <div class="progress-bar"><div class="progress" style="width: 45%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Virtualisation</span>
+                        <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                    </div>
+                    
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Administration Réseau</h3>
+                    <div class="skill-item">
+                        <span>Cisco</span>
+                        <div class="progress-bar"><div class="progress" style="width: 65%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>VLAN</span>
+                        <div class="progress-bar"><div class="progress" style="width: 50%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>juniper</span>
+                        <div class="progress-bar"><div class="progress" style="width: 40%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Sécurité</h3>
+                    <div class="skill-item">
+                        <span>Chiffrement</span>
+                        <div class="progress-bar"><div class="progress" style="width: 35%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Sauvegardes</span>
+                        <div class="progress-bar"><div class="progress" style="width: 50%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Monitoring</span>
+                        <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="bracket">&lt;</span>Projets<span class="bracket">/&gt;</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-folder-open"></i></div>
+                    <div class="project-content">
+                        <h3>Agents IA</h3>
+                        <p> Création d'agents IA afin de m'assister dans mes futur taches</p>
+                        <div class="project-tags">
+                            <span>N8N</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-folder-open"></i></div>
+                    <div class="project-content">
+                        <h3>Configuration d'appareil réseau</h3>
+                        <p>Configuration des appareil constituant un réseau</p>
+                        <div class="project-tags">
+                            <span>switch (Cisco,Juniper)</span><span>Router(Cisco)</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+     <!-- About -->
+    <section id="veille" class="section">
+    <div class="container">
+        <h2 class="section-title"><span class="bracket">&lt;</span>Ma veille technologique et mes outils<span class="bracket">/&gt;</span></h2>
+        <div class="about-content">
+            <div class="about-text" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+                <h3 style="text-align: center;">C'est quoi une veille informatique</h3>
+                <p style="max-width: 600px; text-align: center;">La veille informatique est une activité qui consiste à se tenir au courant des avancées technologiques dans le domaine de l'informatique afin de tirer parti de ses avancées le plus rapidement possible</p>
+            </div>
+            
+            <!-- Changement : ajout d'une grille pour les skill-cards -->
+            <div class="skills-grid" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
+                <div class="skill-card">
+                    <h3>Malware</h3>
+                    <p>les malware désigne tout programme ou code informatique hostile, intrusif et intentionnellement malveillant</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Phishing</h3>
+                    <p>Le phishing consiste à envoyer des messages frauduleux (emails, SMS, appels téléphoniques) qui imitent l'apparence d'organisations légitimes comme des banques, administrations, services en ligne ou sites de e-commerce afin de dérober des données sensibles</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Ransomware</h3>
+                    <p>Un ransomware, ou rançongiciel, est un malware conçu pour chiffrer les fichiers ou verrouiller un système informatique, rendant les données inutilisables pour l’utilisateur sans la clé de déchiffrement détenue par l’attaquant</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Stages -->
+    <section id="Formation" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="bracket">&lt;</span>Formation<span class="bracket">/&gt;</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <h3>Alternance</h3>
+                        <p class="timeline-company">Marignan</p>
+                        <p class="timeline-date">septembre 2025/2026</p>
+                        <ul class="missions">
+                            <li><i class="fas fa-check"></i> Créations utilisateurs</li>
+                            <li><i class="fas fa-check"></i> Assistance utilisateurs</li>
+                            <li><i class="fas fa-check"></i> Installation postes</li>
+                            <li><i class="fas fa-check"></i> Maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <h3>BTS SIO SISR</h3>
+                        <p class="timeline-company">H3 Hitema</p>
+                        <p class="timeline-date">2025/2026</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <h3>stage</h3>
+                        <p class="timeline-company">marignan (3 semaine)</p>
+                        <p class="timeline-date">2024/2025</p>
+                        <ul class="missions">
+                            <li><i class="fas fa-check"></i> Assistance utilisateurs</li>
+                            <li><i class="fas fa-check"></i> Installation postes</li>
+                            <li><i class="fas fa-check"></i> Maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <h3>stage</h3>
+                        <p class="timeline-company">Opticom</p>
+                        <p class="timeline-date">2023/2024 (3semaine)</p>
+                        <ul class="missions">
+                            <li><i class="fas fa-check"></i> Tirage de cable optique</li>
+                            <li><i class="fas fa-check"></i> soudure de fibre optique</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <h3>BAC RISC</h3>
+                         <p class="timeline-company">Réseau informatique et réseau communiquant</p>
+                        <p class="timeline-date">Septembre 2023/2024/2025</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section id="E5" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="bracket">&lt;</span>E5<span class="bracket">/&gt;</span></h2>
+            <div class="contact-content">
+                <p>Documents relatifs à l'épreuve E5 du BTS SIO</p>
+                <div class="contact-links">
+                     <a href="images/E5.pdf" target="_blank" class="contact-link">
+                        <i class="fas fa-envelope"></i> fichier Epreuve-E5
+                    </a>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="bracket">&lt;</span>Contact<span class="bracket">/&gt;</span></h2>
+            <div class="contact-content">
+                <p>N'hésitez pas à me contacter !</p>
+                <div class="contact-links">
+                    <a href="mailto:tomlavernhebalseiro@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i> tomlavernhebalseiro@gmail.com
+                    </a>
+                    <a href="tel:+33612345678" class="contact-link">
+                        <i class="fas fa-phone"></i> +33 7 61 64 91 18
+                    </a>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Tom Lavernhe-Balseiro - BTS SIO SISR</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
